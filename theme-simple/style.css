@@ -1,0 +1,88 @@
+/*
+Theme Name: Simple Theme
+Author: Petros Mamaliogkas
+Description: Asimple WordPress theme
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 15px;
+  color: #333;
+  background: #f4f4f4;
+  line-height: 1.7em;
+}
+
+header {
+  background: #393939;
+  color: #fff;
+  padding: 20px 10px;
+}
+
+header h1 {
+  color: #fff;
+  padding-bottom: 10px;
+}
+main {
+  margin: 15px 0;
+}
+
+h3.post-title {
+    margin-top: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.meta {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+
+}
+
+article.post {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+a.button-read-more {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 5px 5px;
+    margin: 10px 0;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+footer {
+  background: #393939;
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+}
